@@ -1,0 +1,44 @@
+{
+  "name": "React-GoogleMap",
+  "version": "1.0.0",
+  "description": "A demo for that use Google Map in ReactJS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TommyHili/React-GoogleMap.git"
+  },
+  "author": "JinLang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TommyHili/React-GoogleMap/issues"
+  },
+  "homepage": "https://github.com/TommyHili/React-GoogleMap",
+  "scripts": {
+    "start": "gulp"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "browser-sync": "^2.7.12",
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-util": "^3.0.6",
+    "pretty-hrtime": "^1.0.0",
+    "reactify": "^1.1.1",
+    "require-dir": "^0.3.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.3"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-tap-event-plugin": "^0.1.7"
+  }
+}
