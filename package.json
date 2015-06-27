@@ -38,6 +38,7 @@
     "watchify": "^3.2.3"
   },
   "dependencies": {
+    "moment": "^2.10.3",
     "react": "^0.13.3",
     "react-tap-event-plugin": "^0.1.7"
   }
